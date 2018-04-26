@@ -1,0 +1,30 @@
+Package: maxbet
+Type: Package
+Title: Prototype toolbox for MaxBet
+Version: 0.1.0
+Date: 2013-10-11
+Author: Gaston Sanchez, Mohamed Hanafi
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: Prototype package for multiblock analysis methods
+    This is just a draft version with MaxBet
+Depends:
+    R (>= 3.0.0),
+    ggplot2,
+    factorbox
+Suggests:
+    knitr,
+    testthat (>= 0.3)
+VignetteBuilder: knitr
+License: GPL-3
+LazyLoad: yes
+Collate:
+    'checkers.r'
+    'get-names.r'
+    'maxbet-package.r'
+    'method-maxbet.r'
+    'autoplot.r'
+    'scores_to_dataframe.r'
+    'transformers.r'
+    'loadings_to_dataframe.r'
+    'baryplot.r'
+    'bmodel.r'
